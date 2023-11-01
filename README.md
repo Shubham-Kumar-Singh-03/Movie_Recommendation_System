@@ -3,7 +3,7 @@ The Movie Recommendation System is a web application that provides personalized 
 
 ## Demo
 
-https://github.com/Shubham-Kumar-Singh-03/Movie_Recommendation_System/assets/87908011/f94827d0-1ab7-424d-b0e3-e05c2d5805ba
+https://github.com/Shubham-Kumar-Singh-03/Movie_Recommendation_System/assets/87908011/40ca17db-4fd4-43a6-8342-997edf44f703
 
 
 ## Overview
