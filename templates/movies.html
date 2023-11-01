@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommended</title>
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+    <div class = "header">
+        <div>
+            <h1>
+                Recommended For You
+            </h1>
+        </div>
+        <div id="go_back">
+            <h4>
+                <a href="/"><h3>Back to search</h3></a>
+            </h4>
+        </div>    
+    </div>
+
+    <table id = "recommended_movies">
+        <tbody>
+            <tr>
+                {% for i in range(10) %}
+                <td><a href="{{imdb[i]}}"><img src="{{posters[i]}}" alt=""></a><br> {{movies[i] }}</td>
+                {% endfor %}
+            </tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

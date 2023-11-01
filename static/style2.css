@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+table {
+    width: fit-content;
+    table-layout: auto;
+    border-radius: 5px;
+}
+
+
+td {
+    border: 2px solid;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+}
+.header {
+    margin-top: 30px;
+    text-align: center;
+}
+#search_box {
+    text-align: center;
+}
+
+.searchbox{
+    width: 200px;
+    height: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px ;
+}
+
+.sub{
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px ;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
